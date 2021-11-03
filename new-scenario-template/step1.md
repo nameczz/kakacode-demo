@@ -1,8 +1,9 @@
-# Heading for Step 1
+# Install Milvus
 
-This is some text.
+Download docker-compose.yml:
 
-Here's a single line of runnable code:
+`wget https://github.com/milvus-io/milvus/releases/download/v2.0.0-rc7/milvus-standalone-docker-compose.yml -O docker-compose.yml`{{execute}}
 
-`printf 'Hello, world!\n\n'`{{execute}}
+Run milvus in the backend:
 
+`docker-compose up -d`{{execute}}

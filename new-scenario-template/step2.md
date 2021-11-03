@@ -1,8 +1,10 @@
-# Heading for Step 2
+# Install milvus cli
 
-This is some text.
+`pip3 install milvus-cli`{{execute}}
 
-Here's a single line of runnable code:
+Go to cli command line:
 
-`printf 'Jello, world!\n\n'`{{execute}}
+`milvus_cli`{{execute}}
 
+Connect Milvus:
+`connect`{{execute}}
