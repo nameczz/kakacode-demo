@@ -14,7 +14,7 @@
 
 ## Load collections
 
-`load -c car'`{{execute}}
+`load -c car`{{execute}}
 
 ## Describe collection infos
 
@@ -22,4 +22,12 @@
 
 ## Do vector seach
 
-`search'`{{execute}}
+`search`{{execute}}
+collection name :`car`{{execute}}
+import search csv: `./search_vectors.csv`{{execute}}
+vector field name: `vector`{{execute}}
+round_decimal: `-1`{{execute}}
+topk: `10`{{execute}}
+filter: `[]`{{execute}}
+partition: `_default`{{execute}}
+timeout : `[]`{{execute}}

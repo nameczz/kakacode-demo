@@ -1,4 +1,4 @@
-# New Scenario Template (Your Title Here)
+# Try milvus cli here
 
 This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
 
@@ -27,5 +27,3 @@ If the scenario is part of a set of related scenarios, the table of contents wil
 - Scenario A
 - Scenario B
 - Scenario C
-
-
