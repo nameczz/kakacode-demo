@@ -23,11 +23,19 @@
 ## Do vector seach
 
 `search`{{execute}}
+
 collection name :`car`{{execute}}
+
 import search csv: `./search_vectors.csv`{{execute}}
+
 vector field name: `vector`{{execute}}
+
 round_decimal: `-1`{{execute}}
+
 topk: `10`{{execute}}
+
 filter: `[]`{{execute}}
+
 partition: `_default`{{execute}}
+
 timeout : `[]`{{execute}}
