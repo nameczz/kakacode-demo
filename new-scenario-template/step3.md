@@ -1,8 +1,25 @@
-# Heading for Step 3
+# How to use milvus
 
-This is some text.
+## Create collection
 
-Here's a single line of runnable code:
+`create collection -c car -f id:INT64:primary_field -f vector:FLOAT_VECTOR:128 -f color:INT64:color -f brand:INT64:brand -p id -a -d 'car_collection'`{{execute}}
 
-`printf 'Cello, world!\n\n'`{{execute}}
+## Create partition
 
+`create partition -c car -p new_partition -d test_add_partition`{{execute}}
+
+## Import datas
+
+`import -c car './vectors.csv'`{{execute}}
+
+## Load collections
+
+`load -c car'`{{execute}}
+
+## Describe collection infos
+
+`describe collection -c car`{{execute}}
+
+## Do vector seach
+
+`search'`{{execute}}
